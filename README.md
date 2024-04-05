@@ -228,7 +228,7 @@ export default class Conexion {
 }
 ```
 
-Realizo el control de los métodos en base al comando ingresado por consola en base al siguiente código:
+Realizo el control de los métodos en base al comando ingresado por consola a partir del siguiente código:
 
 ```js
 const connectionString = `postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DATABASE}`;
